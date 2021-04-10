@@ -10,27 +10,10 @@ h1
 
 img
 {
-    width: 600px;
+    width: 400px;
 }
 
-.orbachContainer
+.containerPadding
 {
-    align-items: center;
-    justify-content: space-between;
-    margin: 85px;
-    width: 90%;
-    padding-top: 3%;
-}
-
-.row::after
-{
-    content: "";
-    display: table;
-    clear: both;
-}
-
-.column
-{
-    float: left;
-    margin: 80px;
+    padding-top: 10%;
 }
