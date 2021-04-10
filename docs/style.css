@@ -5,7 +5,14 @@ body
 
 h1 
 {
+    font-family: 'Major Mono Display', monospace;
+    font-size: 70px;
     color: black;
+}
+
+h2 
+{
+    font-family: 'Libre Barcode 39 Extended Text', cursive;    
 }
 
 img
@@ -17,3 +24,14 @@ img
 {
     padding-top: 10%;
 }
+
+/*
+@media (min-width:1000px) 
+{
+    .containerPadding
+    {
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+*/
