@@ -15,6 +15,7 @@
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     
+<<<<<<< HEAD
     <header>
         <div class="topRight">
         <a href="#open-modal">ABOUT</a>
@@ -31,6 +32,8 @@
             </div>
         </div>
     </header>
+=======
+>>>>>>> f59b3f94eeddc7bb4c8563af0d010fd2ccf565e7
 
     <div class="containerPadding">
     <div class="container">
@@ -54,35 +57,65 @@
             </div>
 
             <div class="col"><!--style="background-color: brown;"-->
-                <h2>
-                OTHER STUDENTS
-                </h2>
-                <audio controls loop preload="auto">
-                    <source src="./audio/jermaaudiojungle.mp3" type="audio/mpeg">
-                </audio>
-
-                <h2>
-                TYPING
-                </h2>
-                <audio controls loop preload="auto">
-                    <source src="./audio/jermaaudiojungle.mp3" type="audio/mpeg">
-                </audio>
-
-                <h2>
-                PRINTER
-                </h2>
-                <audio controls loop preload="auto">
-                    <source src="./audio/jermaaudiojungle.mp3" type="audio/mpeg">
-                </audio>
-
-                <h2>
-                SEASONS
-                </h2>
-                <audio controls loop preload="auto">
-                    <source src="./audio/jermaaudiojungle.mp3" type="audio/mpeg">
-                </audio>
+                <div id="otherStudents">
+                    <h2>
+                        OTHER STUDENTS
+                    </h2>
+                        <audio controls loop preload="auto">
+                            <source src="./audio/jermaaudiojungle.mp3" type="audio/mpeg">
+                        </audio>
+                        <h2>
+                            Set pan for "OTHER STUDENTS"
+                        </h2>
+                        <input class="panning-control" type="range" min="-1" max="1" step="0.1" value="0">
+                        <span class="panning-value">0</span>
+                        <pre></pre>
+                </div>
+                <div id="typing">
+                    <h2>
+                        TYPING
+                    </h2>
+                        <audio controls loop preload="auto">
+                            <source src="./audio/jermaaudiojungle.mp3" type="audio/mpeg">
+                        </audio>
+                        <h2>
+                            Set pan for "TYPING"
+                        </h2>
+                            <input class="panning-control" type="range" min="-1" max="1" step="0.1" value="0">
+                            <span class="panning-value">0</span>
+                            <pre></pre>  
+                </div>
+                <div id="printer">
+                    <h2>
+                        PRINTER
+                    </h2>
+                        <audio controls loop preload="auto">
+                            <source src="./audio/jermaaudiojungle.mp3" type="audio/mpeg">
+                        </audio>
+                        <h2>
+                            Set pan for "PRINTER"
+                        </h2>
+                            <input class="panning-control" type="range" min="-1" max="1" step="0.1" value="0">
+                            <span class="panning-value">0</span>
+                            <pre></pre>
+                </div>
+                <div id="seasons">
+                    <h2>
+                        SEASONS
+                    </h2>
+                        <audio controls loop preload="auto">
+                            <source src="./audio/jermaaudiojungle.mp3" type="audio/mpeg">
+                        </audio>\
+                        <h2>
+                            Set pan for "SEASONS"
+                        </h2>
+                            <input class="panning-control" type="range" min="-1" max="1" step="0.1" value="0">
+                            <span class="panning-value">0</span>
+                            <pre></pre>
+                </div>
             </div>
         </div>
+        <script src="./js/panControl.js"></script>
     </div>
     </div>
 
