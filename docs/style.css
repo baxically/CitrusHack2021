@@ -125,14 +125,14 @@ img
   
 .topRight
 {
-    position: relative;
+    position: absolute;
     top: 8px;
     right: 16px;
 }
 
 .bottomRight
 {
-    position: relative;
+    position: absolute;
     bottom: 8px;
     right: 16px;   
 }
