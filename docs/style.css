@@ -122,6 +122,18 @@ img
     top: 8px;
     right: 16px;
 }
+
+footer
+{
+    text-align: center;
+    /*right: 0;
+    */
+
+}
+
+footer.sections h3 {
+    font-family: 'Hobo Std';
+}
 /*
 @media (min-width:1000px) 
 {
