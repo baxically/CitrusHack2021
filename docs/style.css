@@ -126,13 +126,14 @@ img
 footer
 {
     text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     /*right: 0;
     */
 
 }
 
-footer.sections h3 {
-    font-family: 'Hobo Std';
+footer.sections h2 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 /*
 @media (min-width:1000px) 
