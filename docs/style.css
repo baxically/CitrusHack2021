@@ -17,6 +17,13 @@ h2, p
     color: #798478;
 }
 
+h3
+{
+    font-family: 'Courier New', Courier, monospace; 
+    font-size: 12px;
+    color: #798478;    
+}
+
 img
 {
     width: 400px;
@@ -123,18 +130,22 @@ img
     right: 16px;
 }
 
+.bottomRight
+{
+    position: absolute;
+    bottom: 8px;
+    right: 16px;   
+}
+
 footer
 {
-    text-align: center;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: right;
+    font-family:'Courier New', Courier, monospace;
     /*right: 0;
     */
 
 }
 
-footer.sections h2 {
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-}
 /*
 @media (min-width:1000px) 
 {
