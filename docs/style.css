@@ -12,7 +12,9 @@ h1
 
 h2 
 {
-    font-family: 'Libre Barcode 39 Extended Text', cursive;    
+    font-family: 'Courier New', Courier, monospace; 
+    font-size: 15px;
+    color: black;
 }
 
 img
