@@ -18,7 +18,7 @@ const panValue = document.querySelector('.panning-value');
 
 pre.innerHTML = myScript.innerHTML;
 
-if(otherStudents) {
+if(otherStudents && !otherStudentsCtx) {
     myAudio[0].addEventListener('play', () => {
         // Create audio context if it doesn't already exist
         if(!otherStudentsCtx) {
@@ -48,7 +48,7 @@ if(otherStudents) {
       })
 }
 
-if(typing) {
+if(typing && !typingCtx) {
     myAudio[1].addEventListener('play', () => {
         if(!typingCtx) {
           typingCtx = new window.AudioContext();
@@ -68,7 +68,7 @@ if(typing) {
       })
 }
 
-if(printer) {
+if(printer && !printerCtx) {
     myAudio[2].addEventListener('play', () => {
         if(!printerCtx) {
           printerCtx = new window.AudioContext();
@@ -88,7 +88,7 @@ if(printer) {
       })
 }
 
-if(seasons) {
+if(seasons && !seasonsCtx) {
     myAudio[3].addEventListener('play', () => {
         if(!typingCtx) {
           seasonsCtx = new window.AudioContext();
