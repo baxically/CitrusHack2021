@@ -9,7 +9,7 @@ var typing = document.getElementById("typing");
 var printer = document.getElementById("printer");
 var seasons = document.getElementById("seasons");
 
-const myAudio = document.querySelectorAll('audio');
+const myAudio = document.querySelector('audio');
 const pre = document.querySelector('pre');
 const myScript = document.currentScript;
 
@@ -48,7 +48,7 @@ if(otherStudents && !otherStudentsCtx) {
       })
 }
 
-if(typing && !typingCtx) {
+/*if(typing && !typingCtx) {
     myAudio[1].addEventListener('play', () => {
         if(!typingCtx) {
           typingCtx = new window.AudioContext();
@@ -106,4 +106,4 @@ if(seasons && !seasonsCtx) {
         source.connect(panNode);
         panNode.connect(seasonsCtx.destination);
       })
-}
+}*/
