@@ -9,7 +9,7 @@ var typing = document.getElementById("typing");
 var printer = document.getElementById("printer");
 var seasons = document.getElementById("seasons");
 
-const myAudio = document.querySelector('audio');
+const myAudio = document.querySelectorAll('audio');
 const pre = document.querySelector('pre');
 const myScript = document.currentScript;
 
@@ -24,22 +24,22 @@ if(otherStudents && !otherStudentsCtx) {
         if(!otherStudentsCtx) {
           otherStudentsCtx = new window.AudioContext();
         }
-      
+
         // Create a MediaElementAudioSourceNode
         // Feed the HTMLMediaElement into it
         let source = otherStudentsCtx.createMediaElementSource(myAudio[0]);
-      
+
         // Create a stereo panner
         let panNode = otherStudentsCtx.createStereoPanner();
-      
+
         // Event handler function to increase panning to the right and left
         // when the slider is moved
-      
+
         panControl.oninput = function() {
           panNode.pan.value = panControl.value;
           panValue.innerHTML = panControl.value;
         }
-      
+
         // connect the AudioBufferSourceNode to the gainNode
         // and the gainNode to the destination, so we can play the
         // music and adjust the panning using the controls
@@ -57,7 +57,7 @@ if(otherStudents && !otherStudentsCtx) {
         let source = typingCtx.createMediaElementSource(myAudio[1]);
 
         let panNode = typingCtx.createStereoPanner();
-      
+
         panControl.oninput = function() {
           panNode.pan.value = panControl.value;
           panValue.innerHTML = panControl.value;
@@ -77,7 +77,7 @@ if(printer && !printerCtx) {
         let source = printerCtx.createMediaElementSource(myAudio[2]);
 
         let panNode = printerCtx.createStereoPanner();
-      
+
         panControl.oninput = function() {
           panNode.pan.value = panControl.value;
           panValue.innerHTML = panControl.value;
@@ -97,7 +97,7 @@ if(seasons && !seasonsCtx) {
         let source = seasonsCtx.createMediaElementSource(myAudio[3]);
 
         let panNode = seasonsCtx.createStereoPanner();
-      
+
         panControl.oninput = function() {
           panNode.pan.value = panControl.value;
           panValue.innerHTML = panControl.value;
