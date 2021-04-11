@@ -15,6 +15,22 @@
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     
+    <header>
+        <div class="topRight">
+        <a href="#open-modal">ABOUT</a>
+            <div id="open-modal" class="modal-window">
+                <div>
+                <a href="#modal-close" title="Close" class="modal-close">close &times;</a>
+                <h1>ABOUT</h1>
+                <p>Lorem ipsum dolor sit amet, ex aperiam commune vis. Ei quot libris facilisi eam. Epicuri senserit iudicabit mei ne. Cum ne eros clita nominavi.
+
+                    Sea unum minimum delicatissimi id, in iusto homero aperiri per. Ut mei quot consul bonorum, pro ex liber veritus suavitate. Te qui nobis appetere. Est ferri numquam ei.
+                    
+                    Eum in everti verterem. Sed at aliquid alienum, qui vituperata adversarium id. Inimicus patrioque pro in. Te usu dico tritani, te nullam numquam est. Quo te novum instructior.</p>
+                </div>
+            </div>
+        </div>
+    </header>
 
     <div class="containerPadding">
     <div class="container">
@@ -26,7 +42,7 @@
                 ORBACH
                 </h1>
                 <h2>
-                LOFI AND STUDY
+                STOP PROCRASTINATING
                 </h2>
                 <iframe src="https://open.spotify.com/embed/playlist/7EzY4cwoDYO3oY2QPjSRti" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
                 </iframe>
@@ -39,25 +55,25 @@
 
             <div class="col"><!--style="background-color: brown;"-->
                 <div id="otherStudents">
-                    <h2>
-                        OTHER STUDENTS
-                    </h2>
-                        <audio controls loop preload="auto">
-                            <source src="./audio/jermaaudiojungle.mp3" type="audio/mpeg">
-                        </audio>
-                        <h2>
-                            Set pan for "OTHER STUDENTS"
-                        </h2>
-                        <input class="panning-control" type="range" min="-1" max="1" step="0.1" value="0">
-                        <span class="panning-value">0</span>
-                        <pre></pre>
+                <h2>
+                    OTHER STUDENTS
+                </h2>
+                <audio controls loop preload="auto">
+                    <source src="./audio/ambiance.mp3" type="audio/mpeg">
+                </audio>
+                <h2>
+                    Set pan for "OTHER STUDENTS"
+                </h2>
+                <input class="panning-control" type="range" min="-1" max="1" step="0.1" value="0">
+                <span class="panning-value">0</span>
+                <pre></pre>
                 </div>
                 <div id="typing">
                     <h2>
                         TYPING
                     </h2>
                         <audio controls loop preload="auto">
-                            <source src="./audio/jermaaudiojungle.mp3" type="audio/mpeg">
+                            <source src="./audio/typing.mp3" type="audio/mpeg">
                         </audio>
                         <!--<h2>
                             Set pan for "TYPING"
@@ -71,7 +87,7 @@
                         PRINTER
                     </h2>
                         <audio controls loop preload="auto">
-                            <source src="./audio/jermaaudiojungle.mp3" type="audio/mpeg">
+                            <source src="./audio/printer.mp3" type="audio/mpeg">
                         </audio>
                         <!--<h2>
                             Set pan for "PRINTER"
@@ -85,7 +101,7 @@
                         SEASONS
                     </h2>
                         <audio controls loop preload="auto">
-                            <source src="./audio/jermaaudiojungle.mp3" type="audio/mpeg">
+                            <source src="./audio/rain.mp3" type="audio/mpeg">
                         </audio>\
                         <!--<h2>
                             Set pan for "SEASONS"
@@ -96,8 +112,18 @@
                 </div>
             </div>
         </div>
-        <script src="./js/panControl.js"></script>
     </div>
-    </div>
+    <script src="./js/panControl.js"></script>   
+</div>
+</div>
+
+
+    <footer>
+        <h3>
+        <p> Code by Ally Thach, Brandon Porter, Tommy Churr, Alfredo Gonzalez <br> Illustrations by Ally Thach <br> Sounds sourced from  <a href="https://freesound.org/" target="_blank">Freesound.org</a> <br> 
+        Inspired by  <a href="https://imissmycafe.com/" target="_blank">imissmycafe</a> and <a href="https://imissmybar.com/" target="_blank">imissmybar</a> </p>
+
+        </h3>
+    </footer>
 </body>
 </html>
