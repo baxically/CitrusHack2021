@@ -2,7 +2,7 @@
 A website that stimulates studying in UCR's Science Library
 
 ## Description
-I Miss Orbach was created using HTML/CSS, JavaScript, and Web Audio API. It was created for those that miss their days in the Orbach Science Library and wanted to reminisce on the sensations that accompanied visiting there. A lofi spotify playlist is provided on the left side of the webpage along with a series of ambient sounds that can be customized to your liking.
+I Miss Orbach was created using HTML/CSS, JavaScript, and Web Audio API. It was created for those who miss their days in the Orbach Science Library and wanted to reminisce on the sensations that accompanied visiting there. A lofi spotify playlist is provided on the left side of the webpage along with a series of ambient sounds that can be customized to your liking.
 
 ## Authors
 - [Alfredo Gonzalez](https://github.com/Dakoth)
